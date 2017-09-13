@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.haoyu.app.view.AppToolBar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left_button_image="@drawable/app_back"
+        app:right_button_textColor="@color/white"
+        app:title_text="成员管理" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_label">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="输入名字"
+            android:paddingBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:textSize="@dimen/font_size_15" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/et_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/et_name"
+            android:paddingBottom="@dimen/margin_size_8"
+            android:paddingLeft="@dimen/margin_size_15"
+            android:paddingRight="@dimen/margin_size_12"
+            android:paddingTop="@dimen/margin_size_8"
+            android:src="@drawable/member_search" />
+    </RelativeLayout>
+
+</LinearLayout>
