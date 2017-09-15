@@ -34,8 +34,8 @@
                 android:orientation="vertical">
 
                 <com.haoyu.app.view.CircularProgressView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/margin_size_40"
+                    android:layout_height="@dimen/margin_size_40"
                     app:border_Width="1dp" />
 
 
