@@ -1115,7 +1115,7 @@ public class VideoPlayerActivity extends BaseActivity implements View.OnClickLis
         if (running) {
             if (type != null) {
                 if (type.equals("course")) {
-                    url = Constants.OUTRT_NET + "/" + activityId + "/study/m/video/user/" + videoId + "/updateVideoStatus";
+                    url = Constants.OUTRT_NET + "/" + activityId + "/teach/m/video/user/" + videoId + "/updateVideoStatus";
                 } else if (type.equals("workshop")) {
                     url = Constants.OUTRT_NET + "/student_" + workshopId + "/m/video/user/" + videoId + "/updateVideoStatus";
                 }
@@ -1142,7 +1142,7 @@ public class VideoPlayerActivity extends BaseActivity implements View.OnClickLis
         if (running) {
             if (type != null) {
                 if (type.equals("course")) {
-                    url = Constants.OUTRT_NET + "/" + activityId + "/study/m/video/user/" + videoId + "/updateViewTime";
+                    url = Constants.OUTRT_NET + "/" + activityId + "/teach/m/video/user/" + videoId + "/updateViewTime";
                 } else if (type.equals("workshop")) {
                     url = Constants.OUTRT_NET + "/student_" + workshopId + "/m/video/user/" + videoId + "/updateViewTime";
                 }
@@ -1178,7 +1178,7 @@ public class VideoPlayerActivity extends BaseActivity implements View.OnClickLis
         if (running) {
             if (type != null) {
                 if (type.equals("course")) {
-                    url = Constants.OUTRT_NET + "/" + activityId + "/study/m/video/user/" + videoId + "/removeVideoStatus";
+                    url = Constants.OUTRT_NET + "/" + activityId + "/teach/m/video/user/" + videoId + "/removeVideoStatus";
                 } else if (type.equals("workshop")) {
                     url = Constants.OUTRT_NET + "/student_" + workshopId + "/m/video/user/{id}/removeVideoStatus";
                 }
