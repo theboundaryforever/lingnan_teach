@@ -1172,7 +1172,6 @@ public class VideoPlayerActivity extends BaseActivity implements View.OnClickLis
     }
 
     String url;
-
     //清除当前播放视频缓存
     private void clearVideoCatch() {
         if (running) {
